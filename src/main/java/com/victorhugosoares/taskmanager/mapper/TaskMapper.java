@@ -1,5 +1,5 @@
 package com.victorhugosoares.taskmanager.mapper;
-// Define o pacote onde esta classe está localizada.
+
 
 import com.victorhugosoares.taskmanager.dto.TaskDTO;
 // Importa a classe `TaskDTO`, que representa os dados transferidos de uma tarefa.
