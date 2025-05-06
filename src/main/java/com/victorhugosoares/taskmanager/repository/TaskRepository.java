@@ -1,5 +1,5 @@
 package com.victorhugosoares.taskmanager.repository;
-// Define o pacote onde esta interface está localizada.
+ 
 
 import com.victorhugosoares.taskmanager.entity.Task;
 // Importa a entidade `Task`, que representa as tarefas no banco de dados.
