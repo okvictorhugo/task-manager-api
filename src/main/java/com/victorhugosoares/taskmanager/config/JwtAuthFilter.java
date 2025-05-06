@@ -1,5 +1,5 @@
 package com.victorhugosoares.taskmanager.config;
-// Define o pacote onde esta classe está localizada.
+
 
 import com.victorhugosoares.taskmanager.entity.User;
 // Importa a classe `User`, que representa a entidade de usuário.
