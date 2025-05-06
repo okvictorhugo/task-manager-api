@@ -1,5 +1,5 @@
 package com.victorhugosoares.taskmanager.entity;
-// Define o pacote onde esta classe está localizada.
+ 
 
 import jakarta.persistence.*;
 // Importa as anotações para mapeamento da classe como uma entidade JPA.
