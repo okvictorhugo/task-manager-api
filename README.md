@@ -57,7 +57,8 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
   "password": "123456"
 }
 
-    📷 Exemplo:
+    ### 📌 Register
+![Register](prints/postman-register.png)
 
 2. 🔑 Login
 
@@ -72,7 +73,8 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
 
     ✅ Você receberá um token JWT.
 
-    📷 Exemplo:
+        ### 🔑 Login 
+![Login](prints/postman-login.png)
 
 3. 📝 Criar nova tarefa
 
@@ -88,7 +90,8 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
   "description": "Minha descrição"
 }
 
-    📷 Exemplo:
+        ### 📝 Tasks 
+![Tasks](prints/postman-tasks.png)
 
 4. 📋 Listar tarefas
 
@@ -99,7 +102,8 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
 
     ✅ Pode incluir filtro: ?status=PENDING
 
-    📷 Exemplo:
+        ### 📋 List Tasks 
+![List Tasks](prints/postman-list-tasks.png)
 
 5. ✏️ Atualizar tarefa
 
@@ -115,7 +119,8 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
   "description": "Descrição atualizada"
 }
 
-    📷 Exemplo:
+        ### ✏️ Update Tasks 
+![Update Tasks](prints/postman-update-tasks.png)
 
 6. ❌ Deletar tarefa
 
@@ -124,9 +129,12 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
     Headers:
     Authorization: Bearer SEU_TOKEN_AQUI
 
-    📷 Exemplo:
+         ### ❌ Delete Tasks 
+![Delete Tasks](prints/postman-delete-tasks.png)
 
-🎥 Demonstração em vídeo
+### 🎬 Demonstração em vídeo
+
+📹 [![Assistir no YouTube](prints/thumb-video.png)](https://youtu.be/uijz55EwAbY)
 
 ▶️ Clique aqui para assistir ao vídeo da aplicação rodando
 📁 Estrutura do projeto
