@@ -1,5 +1,5 @@
 package com.victorhugosoares.taskmanager.service;
-// Define o pacote onde esta classe está localizada.
+
 
 import com.victorhugosoares.taskmanager.dto.CreateTaskDTO;
 // Importa o DTO usado para transferir os dados necessários para criar uma nova tarefa.
@@ -89,7 +89,7 @@ public class TaskService {
                 // Busca as tarefas do usuário com o status especificado.
 
         return tasks.stream()
-                .map(TaskMapper::toDTO)
+                .map(task -> TaskMapper.toDTO(task))
                 // Converte cada tarefa em um `TaskDTO`.
 
                 .collect(Collectors.toList());
