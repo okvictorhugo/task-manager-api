@@ -135,7 +135,7 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
 ### 🎥 Demonstração em vídeo
 [![Assistir no YouTube](prints/thumb-video.png)](https://youtu.be/uijz55EwAbY)
 
-▶️ Clique aqui para assistir ao vídeo da aplicação rodando
+
 📁 Estrutura do projeto
 
 task-manager-api/
