@@ -1,0 +1,40 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Maven ===
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# === IDEs ===
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# === Sistema Operacional ===
+.DS_Store
+Thumbs.db
+
+# === Logs e temporários ===
+*.log
+*.tmp
+*.bak
+
+# === Arquivos sensíveis ===
+*.env
+*.local
+*.secret
+
