@@ -1,76 +1,156 @@
-# Task Manager API
+# 📌 Task Manager API
 
-API RESTful desenvolvida em Java com Spring Boot para gerenciamento de tarefas pessoais.  
-Permite criar, listar (com filtros), atualizar e excluir tarefas vinculadas a usuários autenticados.
+Uma API RESTful desenvolvida com **Spring Boot** para gerenciamento de tarefas com autenticação JWT e cadastro de usuários.
 
-## 🚀 Funcionalidades
+---
 
-- ✅ Criar tarefas com título e descrição
-- 📋 Listar todas as tarefas do usuário
-- 🔍 Filtrar tarefas por status (`PENDING`, `IN_PROGRESS`, `COMPLETED`)
-- ✏️ Atualizar título, descrição e status da tarefa
-- ❌ Excluir tarefa
-- 🔐 Acesso autenticado por usuário
+## 📚 Funcionalidades
 
-## 🛠 Tecnologias Utilizadas
+- Registro de novos usuários
+- Login com autenticação via JWT
+- Criação de tarefas
+- Listagem de tarefas por usuário (com filtro por status)
+- Atualização e remoção de tarefas
+- Proteção de rotas com autenticação
+
+---
+
+## 🚀 Tecnologias utilizadas
 
 - Java 17
 - Spring Boot
-- Spring Data JPA
-- Spring Security (Autenticação)
-- H2 Database (ambiente de desenvolvimento)
+- Spring Security (JWT)
+- Hibernate / JPA
+- H2 Database
 - Lombok
-- Jakarta Validation
 - Maven
 
-## 📦 Estrutura de Diretórios
+---
 
-src/
-├── main/
-│ ├── java/
-│ │ └── com/victorhugosoares/taskmanager/
-│ │ ├── controller/
-│ │ ├── dto/
-│ │ ├── entity/
-│ │ ├── mapper/
-│ │ ├── repository/
-│ │ ├── service/
-│ │ └── config/ (opcional)
-│ └── resources/
-│ └── application.properties
-
-
-## 🧪 Como testar
+## 💻 Como rodar localmente
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/okvictorhugo/task-manager-api.git
-   cd task-manager-api
 
-    Importe no Eclipse, IntelliJ ou qualquer IDE com suporte a Maven.
+```bash
+git clone https://github.com/okvictorhugo/task-manager-api.git
 
-    Rode o projeto via TaskManagerApplication.
+    Abra o projeto em sua IDE Java (Eclipse, IntelliJ, VS Code).
 
-    Teste os endpoints via Postman ou Insomnia:
+    Rode o projeto com o Spring Boot (TaskManagerApplication).
 
-        POST /tasks
+    O banco de dados H2 será inicializado automaticamente com as configurações do application.properties.
 
-        GET /tasks
+    Use o Postman ou outra ferramenta para consumir os endpoints.
 
-        PUT /tasks/{id}
+🔄 Como usar a API com Postman
 
-        DELETE /tasks/{id}
+Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
+1. 📌 Registro de usuário
 
-    Certifique-se de autenticar o usuário para utilizar os endpoints protegidos (se JWT estiver implementado).
+    Endpoint: POST /auth/register
 
-📸 Apresentação
+    Body (JSON):
 
-    Prints dos testes no Postman: ./docs/prints/
+{
+  "name": "Seu Nome",
+  "email": "seu@email.com",
+  "password": "123456"
+}
 
-    Vídeo da API em funcionamento: [link aqui quando disponível]
+    📷 Exemplo:
 
-👨‍💻 Autor
+2. 🔑 Login
+
+    Endpoint: POST /auth/login
+
+    Body (JSON):
+
+{
+  "email": "seu@email.com",
+  "password": "123456"
+}
+
+    ✅ Você receberá um token JWT.
+
+    📷 Exemplo:
+
+3. 📝 Criar nova tarefa
+
+    Endpoint: POST /tasks
+
+    Headers:
+    Authorization: Bearer SEU_TOKEN_AQUI
+
+    Body (JSON):
+
+{
+  "title": "Exemplo de tarefa",
+  "description": "Minha descrição"
+}
+
+    📷 Exemplo:
+
+4. 📋 Listar tarefas
+
+    Endpoint: GET /tasks
+
+    Headers:
+    Authorization: Bearer SEU_TOKEN_AQUI
+
+    ✅ Pode incluir filtro: ?status=PENDING
+
+    📷 Exemplo:
+
+5. ✏️ Atualizar tarefa
+
+    Endpoint: PUT /tasks/{id}
+
+    Headers:
+    Authorization: Bearer SEU_TOKEN_AQUI
+
+    Body (JSON):
+
+{
+  "title": "Título atualizado",
+  "description": "Descrição atualizada"
+}
+
+    📷 Exemplo:
+
+6. ❌ Deletar tarefa
+
+    Endpoint: DELETE /tasks/{id}
+
+    Headers:
+    Authorization: Bearer SEU_TOKEN_AQUI
+
+    📷 Exemplo:
+
+🎥 Demonstração em vídeo
+
+▶️ Clique aqui para assistir ao vídeo da aplicação rodando
+📁 Estrutura do projeto
+
+task-manager-api/
+│
+├── src/
+│   ├── main/java/com/victorhugosoares/taskmanager/
+│   └── ...
+├── prints/
+│   ├── register.png
+│   ├── login.png
+│   ├── create-task.png
+│   ├── list-tasks.png
+│   ├── update-task.png
+│   └── delete-task.png
+├── assets/
+│   └── demo.mp4
+├── README.md
+├── pom.xml
+└── .gitignore
+
+✍️ Autor
 
 Victor Hugo Barbosa Soares
 📧 contatovictorhugosoares@gmail.com
-🔗 LinkedIn
+🌐 linkedin.com/in/okvictorhugo
