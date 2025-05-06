@@ -57,7 +57,7 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
   "password": "123456"
 }
 
-    ### 📌 Register
+### Registro de novo usuário
 ![Register](prints/postman-register.png)
 
 2. 🔑 Login
@@ -73,7 +73,7 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
 
     ✅ Você receberá um token JWT.
 
-        ### 🔑 Login 
+### Login
 ![Login](prints/postman-login.png)
 
 3. 📝 Criar nova tarefa
@@ -90,8 +90,8 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
   "description": "Minha descrição"
 }
 
-        ### 📝 Tasks 
-![Tasks](prints/postman-tasks.png)
+### Criar tarefa
+![Create Task](prints/postman-tasks.png)
 
 4. 📋 Listar tarefas
 
@@ -102,7 +102,7 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
 
     ✅ Pode incluir filtro: ?status=PENDING
 
-        ### 📋 List Tasks 
+### Listar tarefas
 ![List Tasks](prints/postman-list-tasks.png)
 
 5. ✏️ Atualizar tarefa
@@ -119,8 +119,8 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
   "description": "Descrição atualizada"
 }
 
-        ### ✏️ Update Tasks 
-![Update Tasks](prints/postman-update-tasks.png)
+### Atualizar tarefa
+![Update Task](prints/postman-update-tasks.png)
 
 6. ❌ Deletar tarefa
 
@@ -129,12 +129,11 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
     Headers:
     Authorization: Bearer SEU_TOKEN_AQUI
 
-         ### ❌ Delete Tasks 
-![Delete Tasks](prints/postman-delete-tasks.png)
+### Deletar tarefa
+![Delete Task](prints/postman-delete-tasks.png)
 
-### 🎬 Demonstração em vídeo
-
-📹 [![Assistir no YouTube](prints/thumb-video.png)](https://youtu.be/uijz55EwAbY)
+### 🎥 Demonstração em vídeo
+[![Assistir no YouTube](prints/thumb-video.png)](https://youtu.be/uijz55EwAbY)
 
 ▶️ Clique aqui para assistir ao vídeo da aplicação rodando
 📁 Estrutura do projeto
@@ -145,14 +144,15 @@ task-manager-api/
 │   ├── main/java/com/victorhugosoares/taskmanager/
 │   └── ...
 ├── prints/
-│   ├── register.png
-│   ├── login.png
-│   ├── create-task.png
-│   ├── list-tasks.png
-│   ├── update-task.png
-│   └── delete-task.png
+│   ├── postman-register.png
+│   ├── postman-login.png
+│   ├── postman-tasks.png
+│   ├── postman-list-tasks.png
+│   ├── postman-update-tasks.png
+│   ├── thumb-video.png
+│   └── postman-delete-tasks.png
 ├── assets/
-│   └── demo.mp4
+│   └── postman-taskmanager-api.mp4
 ├── README.md
 ├── pom.xml
 └── .gitignore
