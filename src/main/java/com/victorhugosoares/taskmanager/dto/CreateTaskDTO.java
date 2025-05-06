@@ -1,5 +1,5 @@
 package com.victorhugosoares.taskmanager.dto;
-// Define o pacote onde esta classe está localizada.
+
 
 import lombok.Data;
 // Importa a anotação `@Data` do Lombok, que gera automaticamente os métodos getters, setters, equals, hashCode e toString.
