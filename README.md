@@ -58,7 +58,7 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
 }
 
 ### Registro de novo usuário
-![Register]([prints/postman-register.png](https://github.com/okvictorhugo/task-manager-api/blob/78ccda016349487ddaeadb45424db969ff24be0a/prints/postman-register.png))
+![Image](https://github.com/user-attachments/assets/7a71c8e4-566e-4fb2-8ab8-7cb089004324)
 
 2. 🔑 Login
 
