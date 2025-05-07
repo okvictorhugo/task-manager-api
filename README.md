@@ -45,7 +45,7 @@ git clone https://github.com/okvictorhugo/task-manager-api.git
 🔄 Como usar a API com Postman
 
 Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
-1. 📌 Registro de usuário
+1. ## 📌 Registro de usuário
 
     Endpoint: POST /auth/register
 
@@ -57,10 +57,11 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
   "password": "123456"
 }
 
-### Registro de novo usuário
-![Register](prints/register.png)
 
-2. 🔑 Login
+![Register](prints/postman-register.png)
+
+
+2. ## 🔑 Login
 
     Endpoint: POST /auth/login
 
@@ -73,10 +74,10 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
 
     ✅ Você receberá um token JWT.
 
-### Login
+
 ![Login](prints/postman-login.png)
 
-3. 📝 Criar nova tarefa
+3. ## 📝 Criar nova tarefa
 
     Endpoint: POST /tasks
 
@@ -90,10 +91,10 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
   "description": "Minha descrição"
 }
 
-### Criar tarefa
+
 ![Create Task](prints/postman-tasks.png)
 
-4. 📋 Listar tarefas
+4. ## 📋 Listar tarefas
 
     Endpoint: GET /tasks
 
@@ -102,10 +103,10 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
 
     ✅ Pode incluir filtro: ?status=PENDING
 
-### Listar tarefas
+
 ![List Tasks](prints/postman-list-tasks.png)
 
-5. ✏️ Atualizar tarefa
+5. ## ✏️ Atualizar tarefa
 
     Endpoint: PUT /tasks/{id}
 
@@ -119,17 +120,17 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
   "description": "Descrição atualizada"
 }
 
-### Atualizar tarefa
+
 ![Update Task](prints/postman-update-tasks.png)
 
-6. ❌ Deletar tarefa
+6. ## ❌ Deletar tarefa
 
     Endpoint: DELETE /tasks/{id}
 
     Headers:
     Authorization: Bearer SEU_TOKEN_AQUI
 
-### Deletar tarefa
+
 ![Delete Task](prints/postman-delete-tasks.png)
 
 ### 🎥 Demonstração em vídeo
