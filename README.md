@@ -167,7 +167,7 @@ task-manager-api/
 ## 🧾 Historico de commits
 <p align="center"> <img src="prints/git-log.png" alt="Git Log Oneline" width="800"> </p>
 
-✍️ Autor
+✍️ Autor 
 
 Victor Hugo B. Soares
 📧 contatovictorhugosoares@gmail.com
