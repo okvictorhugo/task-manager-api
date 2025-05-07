@@ -58,7 +58,7 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
 }
 
 ### Registro de novo usuário
-![Image](https://github.com/user-attachments/assets/7a71c8e4-566e-4fb2-8ab8-7cb089004324)
+![Register](prints/register.png)
 
 2. 🔑 Login
 
