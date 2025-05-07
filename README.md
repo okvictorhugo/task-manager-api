@@ -133,8 +133,15 @@ Abaixo está o passo a passo para utilizar a API de gerenciamento de tarefas:
 
 ![Delete Task](prints/postman-delete-tasks.png)
 
-### 🎥 Demonstração em vídeo
-[![Assistir no YouTube](prints/thumb-video.png)](https://youtu.be/uijz55EwAbY)
+## 📽️ Demonstração em Vídeo
+
+<p align="center">
+  <a href="https://youtu.be/uijz55EwAbY">
+    <img src="prints/thumb-video.png" alt="Demonstração em Vídeo" width="600">
+  </a>
+</p>
+
+🔗 [Clique aqui para assistir no YouTube](https://youtu.be/uijz55EwAbY)
 
 
 📁 Estrutura do projeto
@@ -157,8 +164,12 @@ task-manager-api/
 ├── pom.xml
 └── .gitignore
 
+## 🧾 Historico de commits
+<p align="center"> <img src="prints/git-log.png" alt="Git Log Oneline" width="800"> </p>
+
 ✍️ Autor
 
-Victor Hugo Barbosa Soares
+Victor Hugo B. Soares
 📧 contatovictorhugosoares@gmail.com
-🌐 linkedin.com/in/okvictorhugo
+🌐 [LinkedIn](https://linkedin.com/in/okvictorhugo)
+📞 (11) 91234-5678 (WhatsApp Comercial)
