@@ -31,7 +31,7 @@ Uma API RESTful desenvolvida com **Spring Boot** para gerenciamento de tarefas c
 
 1. Clone o repositório:
 
-bash
+
 git clone https://github.com/okvictorhugo/task-manager-api.git
 
     Abra o projeto em sua IDE Java (Eclipse, IntelliJ, VS Code).
