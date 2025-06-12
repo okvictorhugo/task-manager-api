@@ -40,7 +40,7 @@ Uma API RESTful desenvolvida com **Spring Boot** para gerenciamento de tarefas c
 1. Clone o repositório:
 
 
-git clone https://github.com/okvictorhugo/task-manager-api.git
+git clone https://github.com/ovitelas/task-manager-api.git
 
     Abra o projeto em sua IDE Java (Eclipse, IntelliJ, VS Code).
 
@@ -179,7 +179,7 @@ task-manager-api/
 
 Victor Hugo B. Soares
 📧 [E-mail - contatovictorhugosoares@gmail.com](contatovictorhugosoares@gmail.com)
-🌐 [LinkedIn](https://linkedin.com/in/okvictorhugo)
+🌐 [LinkedIn](https://linkedin.com/in/ovitelas)
 📞 [Telefone(WhatsApp) +55 11 964628356](https://wa.me/+5511964628356)
 
 
@@ -217,7 +217,7 @@ A RESTful API developed with **Spring Boot** for task management with JWT authen
 1. Clone the repository:
 
 
-git clone https://github.com/okvictorhugo/task-manager-api.git
+git clone https://github.com/ovitelas/task-manager-api.git
 
     Open the project in your Java IDE (Eclipse, IntelliJ, or VS Code).
 
@@ -357,5 +357,5 @@ task-manager-api/
 
 Victor Hugo B. Soares
 📧 [E-mail - contatovictorhugosoares@gmail.com](contatovictorhugosoares@gmail.com)
-🌐 [LinkedIn](https://linkedin.com/in/okvictorhugo)
+🌐 [LinkedIn](https://linkedin.com/in/ovitelas)
 📞 [Telefone(WhatsApp) +55 11 964628356](https://wa.me/+5511964628356)
